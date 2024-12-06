@@ -1,0 +1,51 @@
+.icon {
+  font-size: 36px;
+  color: #333; /* Neutral dark color for icons */
+}
+
+.why-choose-wrapper {
+  background-color: #f9f9f9; /* Soft minimal background */
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.why-choose-title {
+  font-size: 2rem;
+  color: #222;
+  margin-bottom: 40px;
+}
+
+.why-choose-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Responsive grid */
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.why-choose-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+  transition: transform 0.3s ease;
+}
+
+.why-choose-card:hover {
+  transform: translateY(-5px); /* Subtle lift on hover */
+}
+
+.card-icon {
+  margin-bottom: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  color: #666;
+  font-size: 1rem;
+}

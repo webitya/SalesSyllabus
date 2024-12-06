@@ -1,0 +1,21 @@
+/* Ensure Tawk.to widget is small and positioned in the bottom-right corner */
+#tawkchat-container {
+    position: fixed !important;
+    bottom: 20px !important;
+    right: 20px !important;
+    width: 300px !important;
+    height: 400px !important;
+    z-index: 9999 !important;
+  }
+  
+  #tawkchat-minified {
+    width: 60px !important;
+    height: 60px !important;
+  }
+  .iconWhatsapp{
+    position: fixed;
+    bottom:20px;
+    right:20px;
+    color:rgb(18, 151, 18);
+    font-size:45px;
+  }

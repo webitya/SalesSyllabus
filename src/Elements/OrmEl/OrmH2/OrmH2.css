@@ -1,0 +1,13 @@
+/* Ensure you have a global style for the container */
+.container {
+    max-width: 1200px; /* Adjust based on your layout */
+    margin: 0 auto;
+  }
+  
+  /* Responsive Design Adjustments */
+  @media (min-width: 640px) {
+    .reputation-item {
+      max-width: 500px; /* Ensure cards are not too wide on larger screens */
+    }
+  }
+  

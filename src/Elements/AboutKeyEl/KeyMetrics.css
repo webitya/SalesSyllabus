@@ -1,0 +1,21 @@
+.testimonials-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .testimonial-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 24px;
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures equal height */
+    height: 100%; /* Makes the card take full height of the column */
+  }
+  
+  .testimonial-card:hover {
+    transform: translateY(-5px);
+  }
+  

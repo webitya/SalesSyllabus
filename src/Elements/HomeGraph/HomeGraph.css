@@ -1,0 +1,39 @@
+.performance-mixed-chart {
+    text-align: center;
+    padding: 20px;
+    background: #ffffff; /* Improved contrast for readability */
+    border-radius: 10px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+    max-width:100%; /* Set a maximum width for better layout control */
+    margin: 0 auto;
+  }
+  
+  .performance-mixed-chart h2 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #003049
+  }
+  
+  .custom-tooltip {
+    padding: 10px;
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+  }
+  
+  .custom-tooltip div {
+    margin-bottom: 5px;
+  }
+  
+  .apexcharts-tooltip {
+    font-size: 12px;
+  }
+  
+  .apexcharts-legend {
+    margin-top: 15px;
+  }
+  
+  .apexcharts-canvas {
+    margin-top: 20px;
+  }
+  

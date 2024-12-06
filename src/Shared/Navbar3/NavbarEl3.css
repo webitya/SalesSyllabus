@@ -1,0 +1,90 @@
+/* Font and General Settings */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.sticky-navbar {
+  background-color: #ffffff;
+  border-bottom: 2px solid #007BFF;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-menu {
+  gap: 20px;
+  align-items: center;
+}
+
+/* Link Styles */
+.navlink {
+  color: #333;
+  font-weight: 600;
+  font-size: 16px;
+  position: relative;
+  overflow: hidden;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.navlink:hover,
+.active-link {
+  color: #0047FF;
+  text-shadow: 0 0 5px rgba(0, 71, 255, 0.2);
+  background: linear-gradient(120deg, #0047FF, #00ccff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+/* Drawer Toggle Animation */
+.menu-toggle {
+  font-size: 25px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.menu-toggle:hover {
+  transform: rotate(90deg);
+  color: #ffcc00;
+}
+/* ==============DropDown============== */
+/* Dropdown Styling */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 10px 0;
+  min-width: 150px;
+  z-index: 1000;
+}
+
+.dropdown-item {
+  color: #333;
+  padding: 8px 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+  color: #0047FF;
+}

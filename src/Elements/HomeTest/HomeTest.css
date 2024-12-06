@@ -1,0 +1,125 @@
+.testimonial-wrapper {
+    max-width:100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5; /* Neutral, business-friendly color */
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .testimonial-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px; /* Reduced title size */
+    color: #333333; /* Neutral dark color */
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  .testimonial-slide {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    flex-direction: column; /* Stack items vertically for simplicity */
+  }
+  
+  .testimonial-left {
+    flex: 1;
+    padding: 0;
+    margin-bottom: 15px; /* Space between sections */
+  }
+  
+  .testimonial-quote {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px; /* Reduced text size */
+    color: #4a4a4a; /* Soft gray for readability */
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
+  .quote-icon {
+    color: #0077b6; /* Business-friendly blue */
+    font-size: 36px; /* Slightly smaller icon */
+    margin-bottom: 8px;
+  }
+  
+  .testimonial-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .testimonial-image {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 2px solid #0077b6; /* Professional blue border */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .testimonial-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .testimonial-author h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #333333;
+    margin-bottom: 3px;
+  }
+  
+  .testimonial-author p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #777777; /* Subtle gray for roles */
+  }
+  
+  .testimonial-divider {
+    display: none; /* Removed for a cleaner layout */
+  }
+  
+  /* Slick Carousel Pagination Dots */
+  .slick-dots li button:before {
+    color: #0077b6 !important; /* Business blue for dots */
+  }
+  
+  .slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: #004a7c !important; /* Darker blue for active dot */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .testimonial-wrapper {
+      padding: 15px;
+    }
+  
+    .testimonial-title {
+      font-size: 28px;
+    }
+  
+    .testimonial-quote {
+      font-size: 16px;
+    }
+  
+    .testimonial-image {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .testimonial-author h5 {
+      font-size: 18px;
+    }
+  
+    .testimonial-author p {
+      font-size: 12px;
+    }
+  }
+  

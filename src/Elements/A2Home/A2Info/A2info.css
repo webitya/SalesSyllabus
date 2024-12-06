@@ -1,0 +1,18 @@
+/* Animation for Up-Down Infinite Motion */
+@keyframes upDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px); /* Adjust distance as needed */
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  /* Apply the animation to icons */
+  .animated-icon {
+    animation: upDown 2s ease-in-out infinite; /* 2s duration, ease-in-out timing function, infinite loop */
+  }
+  

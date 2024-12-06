@@ -1,0 +1,54 @@
+.case-studies-container {
+  font-family: 'Arial', sans-serif;
+}
+
+.case-study-card {
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  height: 100%; /* Ensure equal height */
+}
+
+.case-study-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.case-study-image {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.case-study-title {
+  color: #1E3A8A; /* Dark Blue */
+  font-size: 1.25rem;
+  margin: 12px 0;
+}
+
+.case-study-description {
+  color: #4B5563; /* Cool Grey */
+}
+
+.ant-btn-primary {
+  background-color: #6D28D9; /* Muted Purple */
+  border-color: #6D28D9;
+}
+
+.ant-btn-primary:hover {
+  background-color: #5b21b6; /* Darker muted purple */
+  border-color: #5b21b6;
+}
+
+/* Responsive styles for card text */
+@media (max-width: 768px) {
+  .case-study-title {
+      font-size: 1.1rem;
+  }
+
+  .case-study-description {
+      font-size: 0.9rem;
+  }
+}

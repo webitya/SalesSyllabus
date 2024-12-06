@@ -1,0 +1,45 @@
+.trusted-companies-wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #2A123D;
+}
+
+.trusted-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #E7C9FF;
+  margin-bottom: 20px;
+}
+
+.trusted-description {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: #fbf6ff;
+  margin-bottom: 40px;
+}
+
+.logo-container {
+  max-width: 100%;
+  padding: 20px 0;
+}
+
+.logo-box {
+  width: 150px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  margin: 0 15px;
+  transition: transform 0.3s ease;
+}
+
+.company-logo {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  padding: 10px; /* Optional: add padding for logos that need spacing */
+}

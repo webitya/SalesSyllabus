@@ -1,0 +1,66 @@
+/* HomeTab2.css */
+
+/* Basic animations */
+@keyframes iconBounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  /* Styling for animated icons */
+  .animated-icon {
+    animation: iconBounce 0.8s ease-in-out infinite;
+    transition: color 0.3s ease;
+    color: #4c51bf
+  }
+  
+  .animated-icon:hover {
+    color: #4c51bf; /* Change color on hover */
+  }
+  
+  /* Card container styling with transition */
+  .card-container {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Button hover and active effects */
+  .button-active {
+    transform: scale(1.05);
+    background-color: #434190; /* Active background color */
+  }
+  
+  .button:hover {
+    background-color: #667eea; /* Button hover color */
+    color: #ffffff;
+  }
+  
+  /* Fade-in animation for content sections */
+  .content-section {
+    animation: fadeIn 0.6s ease;
+  }
+  /* HomeTab2.css */
+
+  .card-glassmorphism {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.bg-soft-blue { background-color: rgb(255, 255, 255); }
+.bg-soft-silver { background-color: rgb(255, 255, 255); }
+.bg-soft-gold { background-color: rgb(255, 255, 255); }
+.bg-soft-cyan { background-color: rgb(255, 255, 255); }
+
+  

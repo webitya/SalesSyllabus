@@ -1,0 +1,72 @@
+.timeline-container {
+    max-width: 1200px; /* Increased width for better layout */
+    margin: 0 auto;
+    padding: 40px;
+    background: #f7f9fc; /* Light background color */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  }
+  
+  .timeline-title {
+    text-align: center;
+    font-size: 28px; /* Increased title size */
+    margin-bottom: 40px; /* Added margin for separation */
+    color: #333; /* Darker color for the title */
+  }
+  
+  .timeline-steps {
+    display: flex; /* Enable flex for horizontal layout */
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:15px;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scrollbar-width: thin; /* Make scrollbar thinner */
+    scroll-behavior: smooth; /* Smooth scroll effect */
+  }
+  
+  .timeline-step {
+    display: flex; /* Flex layout for step elements */
+    align-items: center; /* Center elements vertically */
+    padding: 20px; /* Padding for spacing */
+    transition: transform 0.3s ease; /* Smooth transition */
+    background: #ffffff; /* White background for each step */
+    border-radius: 8px; /* Rounded corners for steps */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    margin-right: 20px; /* Space between steps */
+    position: relative; /* Position for divider */
+  }
+  
+  .step-icon {
+    font-size: 36px; /* Increased icon size */
+    color: #1890ff; /* Primary color */
+    margin-right: 20px; /* Space between icon and text */
+  }
+  
+  .step-content {
+    flex: 1; /* Allow content to grow */
+  }
+  
+  .step-content h3 {
+    margin: 0;
+    font-size: 20px; /* Title size */
+    color: #1890ff; /* Primary color for year */
+    font-weight: bold; /* Bold font */
+  }
+  
+  .step-content p {
+    margin: 5px 0; /* Margin for paragraph */
+    color: #555; /* Lighter color for titles */
+  }
+  
+  .step-description {
+    color: #666; /* Darker color for description */
+    font-size: 14px; /* Smaller font for description */
+  }
+  
+  .divider {
+    width: 1px; /* Thin divider */
+    height: 50px; /* Height for the divider */
+    background: #e0e0e0; /* Light gray color for divider */
+    margin-left: 20px; /* Margin for spacing */
+  }
+  

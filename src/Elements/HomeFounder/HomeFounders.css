@@ -1,0 +1,35 @@
+.home-founders-banner {
+    background-color: #F9F2FF; /* Background color */
+    color: #2b2b2b; /* Text color */
+    text-align: center; /* Center the text */
+    padding:80px 40px; /* Padding around the content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    margin: 20px 0; /* Margin for spacing */
+  }
+  
+  .banner-title {
+    font-size: 2.2rem; /* Adjust title font size */
+    margin-bottom: 10px; /* Space below the title */
+  }
+  
+  .banner-description {
+    font-size: 1.5rem; /* Adjust description font size */
+    margin-bottom: 20px; /* Space below the description */
+  }
+  
+  .banner-button {
+    font-size:30px !important;
+    color: #134894; /* Button text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding inside the button */
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+    font-size: 1rem; /* Button text size */
+    transition: background-color 0.3s; /* Transition for hover effect */
+  }
+  .banner-button:hover{
+    text-decoration: underline;
+  }
+  
+  

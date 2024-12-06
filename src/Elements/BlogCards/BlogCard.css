@@ -1,0 +1,19 @@
+.blog-card {
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .card-content {
+    flex: 1; /* Allows the content to take up the remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .read-now-button {
+    border-radius: 4px;
+  }
+  

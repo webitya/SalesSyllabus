@@ -1,0 +1,20 @@
+.hero-section {
+    background-image: linear-gradient(to right, #e0f2fe, #bbdefb);
+  }
+  
+  .hero-section h1 {
+    font-weight: bold;
+  }
+  
+  .hero-section p {
+    max-width: 800px; /* Adjust as needed */
+  }
+  
+  .hero-section .grid {
+    margin-top: 20px;
+  }
+  
+  .hero-section .shadow-lg:hover {
+    transform: translateY(-2px); /* Hover effect */
+  }
+  

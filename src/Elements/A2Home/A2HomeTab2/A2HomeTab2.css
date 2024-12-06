@@ -1,0 +1,28 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .card-glassmorphism {
+    background: rgba(255, 255, 255, 0.8);
+    transition: all 0.3s ease;
+  }
+  
+  .card-glassmorphism:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+  }
+  
+  .animated-icon {
+    animation: pulse 1.5s infinite ease-in-out;
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+  }
+  

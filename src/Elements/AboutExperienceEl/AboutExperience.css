@@ -1,0 +1,11 @@
+.experience-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures the content is spaced out evenly */
+    height: 100%; /* Makes the card take full height of the column */
+  }
+  
+  .card-content {
+    flex: 1; /* Ensures the content area grows to fill space */
+  }
+  
