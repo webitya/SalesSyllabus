@@ -49,9 +49,9 @@ const ContentMarketingSection = () => {
   ];
 
   return (
-    <section className="bg-indigo-50 py-12 md:px-8 px-2" id="contentMarketingSection">
+    <section className="bg-indigo-50 md:pt-20 py-10 md:px-8 px-2" id="contentMarketingSection">
       <div className="text-center mb-10">
-        <h2 className="text-3xl font-semibold text-blue-900">Content Marketing: The Core of Your Brand's Success</h2>
+        <h2 className="text-3xl text-blue-900">Content Marketing: The Core of Your Brand's Success</h2>
         <p className="text-gray-700 mt-2">Crafting Content That Engages, Educates, and Elevates</p>
       </div>
       {/* Two-column layout */}

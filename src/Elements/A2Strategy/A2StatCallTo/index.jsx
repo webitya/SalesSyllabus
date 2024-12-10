@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const A2StatCallToAction = () => {
   return (
-    <div className="w-full py-16 bg-gradient-to-r from-blue-700 to-blue-500 text-white">
+    <div className="w-full py-20 bg-gradient-to-r from-blue-700 to-blue-500 text-white">
       <div className="max-w-3xl mx-auto px-6 text-center">
         <h2 className="text-4xl font-bold mb-6">
         Ready to Transform Your Business?

@@ -139,7 +139,7 @@ const HeroSectionA2 = () => {
       <div className="text-content flex flex-col justify-center items-start px-5 space-y-6 lg:space-y-8 w-full lg:w-1/2 pr-4">
         {/* Heading */}
         <h1
-          className="text-4xl md:text-4xl lg:text-5xl font-bold leading-tight tracking-wide opacity-95 text-white transition-transform duration-300"
+          className="text-3xl md:text-3xl lg:text-3xl font-bold leading-tight tracking-wide opacity-95 text-white transition-transform duration-300"
           style={{ animation: "fadeIn 1.2s ease-in-out" }}
         >
           Driving Growth, Building Brands, Empowering Sales
@@ -157,18 +157,16 @@ const HeroSectionA2 = () => {
         <div className="sm:gap-6 mt-4 lg:mt-6 m-5 md:block hidden">
           <ScrollLink to="info" smooth={true} duration={500} offset={-70}>
             <Button
-              type="default"
-              icon={<RocketOutlined style={{ fontSize: "20px" }} />}
+              icon={<RocketOutlined style={{ fontSize: "15px" }} />}
               className="
                 text-base md:text-lg text-white transition duration-300 ease-in-out 
                 px-4 !py-5 md:px-4 md:py-2 rounded-full shadow-lg w-full sm:w-auto 
                 flex items-center justify-center gap-2 border-0 hover:scale-105 
-                focus:ring-2 focus:ring-offset-2 focus:ring-pink-500
               "
               style={{
-                background: "linear-gradient(135deg, #007BFF 0%, #007BFF 100%)",
+                background: "linear-gradient(90deg, #007BFF 0%, #0056D2 100%)",
                 color: "#FFFFFF",
-                fontWeight: 600,
+                fontWeight: 500,
                 letterSpacing: "0.5px",
                 boxShadow: "0 8px 20px rgba(0, 0, 0, 0.15)",
                 border:"1px solid white"

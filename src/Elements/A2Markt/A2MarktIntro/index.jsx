@@ -4,8 +4,8 @@ import { Card } from "antd";
 
 const A2ContentMarketingIntro = () => {
   return (
-    <div className="">
-      <Card className="shadow-sm border-none p-4 bg-white rounded-sm  transition-shadow">
+    <div className="py-20">
+      <Card className="shadow-sm border-none bg-white rounded-sm  transition-shadow">
         {/* Icon and Title */}
         {/* <div className="flex items-center mb-6 justify-center">
           <BookOutlined className="text-4xl text-blue-600" />

@@ -75,7 +75,7 @@ const HeroSection = () => {
       style={{ backgroundColor: "#1E3A8A" }}
     >
       <div className="flex-1 text-center md:text-left animate__animated animate__fadeIn animate__delay-0.5s">
-        <h1 className="md:text-4xl text-3xl font-extrabold mb-4 leading-tight animate__animated animate__fadeIn animate__delay-0.5s">
+        <h1 className="md:text-4xl text-3xl font-bold mb-4 leading-tight animate__animated animate__fadeIn animate__delay-0.5s">
           Building trust and positioning your brand as an industry expert.
         </h1>
 

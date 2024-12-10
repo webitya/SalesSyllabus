@@ -44,7 +44,7 @@ const App=()=>{
           <Route path="/blog" element={<Blogs/>}/>
           <Route path="/case-studies" element={<CaseStudies/>}/>
           {/* ============S E R V I C E S =====================*/}
-          <Route path="/market-analysis" element={<BusinessPlanning />} />  {/*Market Analysis */}
+          <Route path="/market-analysis" element={<BusinessPlanning />} />{/*Market Analysis */}
           <Route path="/content-marketing" element={<PerformanceMarketing />} />{/*Performance Marketing */}
           <Route path="/online-reputation-management" element={<Orm/>} />
           <Route path="/search-engine-optimization" element={<Seo />} />

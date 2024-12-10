@@ -4,7 +4,7 @@ import { Button } from 'antd';
 import Chart from 'react-apexcharts';
 import { Link } from 'react-router-dom';
 import HeaderGraph from '../../A2Home/A2HeaderGraph';
-
+import { Link as ScrollLink } from 'react-scroll';
 const HeroSection = () => {
   const chartOptions = {
     chart: {
@@ -72,24 +72,24 @@ const HeroSection = () => {
       <div className="mx-auto grid md:grid-cols-2 gap-8 h-full items-center">
         {/* Left Section: Text and Offerings */}
         <div className="flex flex-col justify-center items-center md:items-start">
-          <h1 className="md:text-4xl text-3xl font-extrabold text-white mb-6 animate__animated animate__fadeIn">
+          <h1 className="md:text-4xl text-3xl font-bold text-white mb-6 animate__animated animate__fadeIn">
             Why Strategic Planning Matters
           </h1>
           <p className="text-lg text-gray-200 mb-6 animate__animated animate__fadeIn">
             Strategic planning is the blueprint that aligns your business objectives with actionable marketing initiatives.
             Without it, efforts are scattered, and results are inconsistent. Our approach ensures a clear roadmap to success.
           </p>
-
-          <Link to="https://calendly.com/salessyllabus" className="mt-6">
+          
+          <ScrollLink to="info1" smooth={true} duration={500} offset={-70}>
             <Button
               type=""
               size="large"
               icon={<LineChartOutlined />}
               className="transition duration-300 ease-in-out bg-gradient-to-r from-purple-400 to-blue-600 text-white font-semibold py-3 px-6 rounded-full transform hover:scale-110 hover:shadow-lg hover:from-blue-500 hover:to-purple-700"
             >
-              Let’s Build Your Strategy
+              Know More
             </Button>
-          </Link>
+            </ScrollLink>
         </div>
 
         {/* Right Section: Chart */}

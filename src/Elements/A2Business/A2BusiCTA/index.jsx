@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const CallToAction = () => {
   return (
-    <div className="w-full py-16 bg-blue-800 text-white">
+    <div className="w-full py-20 bg-blue-800 text-white">
       <div className="mx-auto px-4 text-center">
         <h2 className="text-xl  mb-6">Market analysis is not just about understanding your market—it's about translating 
 insights into strategic actions that drive results. Let Sales Syllabus guide your business 

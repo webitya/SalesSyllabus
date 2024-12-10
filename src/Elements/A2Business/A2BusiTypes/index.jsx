@@ -13,7 +13,7 @@ const marketAnalysisApproach = [
 ];
 
 const BusinessPlanPage = () => (
-  <div className="w-full py-16 bg-white">
+  <div className="w-full md:pt-20 pt-5 pb-5 bg-white">
     <div className="max-w-7xl mx-auto px-4">
       <section>
         <h2 className="text-3xl  text-center mb-2 text-gray-800">Our Market Analysis Approach</h2>

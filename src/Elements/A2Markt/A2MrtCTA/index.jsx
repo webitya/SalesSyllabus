@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const PremiumContentAdvantageSection = () => {
   return (
-    <section className="bg-blue-900 py-16 px-6 md:px-20 text-center text-white">
+    <section className="bg-blue-900 py-20 px-6 md:px-20 text-center text-white">
       <h2 className="text-3xl font-bold mb-6">
         Experience the Premium Content Advantage with Sales Syllabus
       </h2>

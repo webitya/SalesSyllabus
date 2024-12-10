@@ -37,7 +37,7 @@ const A2ContentMarketingBenefits = () => {
   ];
 
   return (
-    <div className="mx-auto p-4 py-10">
+    <div className="mx-auto p-4 md:pt-20">
       <h2 className="text-center text-3xl  text-gray-900 mb-6">Benefits of Content Marketing</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {benefits.map((benefit, index) => (

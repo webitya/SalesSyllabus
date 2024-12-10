@@ -31,7 +31,7 @@ const A2SalesSyllabusAdvantage = () => {
   return (
     <Layout className="bg-gray-50 py-10">
       <Content className="mx-auto px-6">
-        <h1 className="text-4xl font-bold text-center text-gray-800 mb-8">
+        <h1 className="text-3xl text-center text-gray-800 mb-8">
           The Sales Syllabus Advantage
         </h1>
         <p className="text-lg text-center text-gray-600 mb-12">

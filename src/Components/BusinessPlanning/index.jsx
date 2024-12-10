@@ -64,13 +64,12 @@ const BusinessPlanning = () => {
 
   const navLinks = [
 
-    { id: "business-plan", label: "Business Plan" },
-    { id: "plan-types", label: "Plan Types" },
-    { id: "growth-chart", label: "Growth Chart" },
+    { id: "business-plan", label: "Understanding" },
+    { id: "plan-types", label: "Our Approach" },
+    { id: "growth-chart", label: "Graphical Representation" },
     { id: "insights", label: "Insights to Action" },
-    { id: "market-analysis", label: "Market Analysis" },
+    { id: "market-analysis", label: "Key Benefits" },
     { id: "tools-expertise", label: "Tools & Expertise" },
-    { id: "company-trust", label: "Our Partners" },
     { id: "call-to-action", label: "Contact Us" },
   ];
 
@@ -132,7 +131,7 @@ const BusinessPlanning = () => {
           isSidebarOpen ? "ml-40" : "ml-0"
         } lg:ml-40`}
       >
-        <section id="hero">
+        <section>
           <BusinessPlanningHero />
         </section>
         <section id="business-plan">

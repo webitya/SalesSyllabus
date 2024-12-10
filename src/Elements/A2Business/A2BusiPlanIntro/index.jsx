@@ -55,10 +55,10 @@ const A2BusinessPlanPage = () => {
   ];
 
   return (
-    <div className=" mx-auto p-6">
+    <div className=" mx-auto p-6 md:pt-20 pt-5" id="understanding">
       {/* Introduction Section */}
       <section className="mb-5">
-        <Card className="shadow-lg border-none md:p-6 p-1 bg-white">
+        <Card className="shadow-lg border-none  bg-white">
           {/* <h2 className="text-xl  text-gray-900 mb-4">
           Through comprehensive research and advanced analytical tools, we provide actionable 
           insights that empower businesses to

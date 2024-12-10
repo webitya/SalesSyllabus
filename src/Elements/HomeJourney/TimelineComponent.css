@@ -1,7 +1,6 @@
 .timeline-container {
-    max-width: 1200px; /* Increased width for better layout */
+   /* Increased width for better layout */
     margin: 0 auto;
-    padding: 40px;
     background: #f7f9fc; /* Light background color */
     border-radius: 12px; /* Rounded corners */
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */

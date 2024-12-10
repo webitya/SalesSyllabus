@@ -11,7 +11,7 @@ const toolsAndExpertise = [
 ];
 
 const ToolsAndExpertiseSection = () => (
-  <section className="w-full py-12 bg-gray-50">
+  <section className="w-full md:py-20 py-5 bg-gray-50">
     <div className="max-w-7xl mx-auto px-4">
       <div className="text-center mb-8">
         <h2 className="text-3xl  text-gray-800">Our Tools & Expertise</h2>

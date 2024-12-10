@@ -32,7 +32,7 @@ const BrandPositioningJourney = () => {
   ];
 
   return (
-    <div className="bg-white py-16 px-6 md:px-16 lg:px-32">
+    <div className="bg-white py-20 px-6 md:px-16 lg:px-32">
       {/* Title */}
       <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-blue-900">
         Brand Positioning Journey

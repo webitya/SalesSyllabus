@@ -42,7 +42,7 @@ const NavbarEl3 = () => {
       >
         <div className="navbar-brand">
           <NavLink to="/">
-            <img src="/logob.png" alt="brand-logo" width="100px" />
+            <img src="/logobz.svg" alt="brand-logo" width="110px" />
           </NavLink>
         </div>
 

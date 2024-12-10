@@ -13,7 +13,7 @@ const actionableInsights = [
 
 const A2InsightsToActionSection = () => {
   return (
-    <section className="w-full bg-gray-50">
+    <section className="w-full md:pt-20 pt-5 bg-gray-50">
       <div className=" mx-auto px-4">
         <Card className="shadow-lg border-none p-6 bg-white">
           <h2 className="text-3xl  text-gray-800 mb-6 text-center">

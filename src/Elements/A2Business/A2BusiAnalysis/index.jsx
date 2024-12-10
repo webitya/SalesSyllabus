@@ -13,7 +13,7 @@ const businessPlanningSteps = [
 ];
 
 const MarketAnalysisSection = () => (
-  <section className="w-full md:py-16 py-5 bg-gradient-to-br from-indigo-50 via-purple-50 to-blue-50">
+  <section className="w-full md:py-20 py-5 bg-gradient-to-br from-indigo-50 via-purple-50 to-blue-50">
     <div className="mx-auto px-6">
       <div className="text-center mb-3">
         <h2 className="text-3xl  text-gray-800">How Market Analysis Shapes Business Planning</h2>

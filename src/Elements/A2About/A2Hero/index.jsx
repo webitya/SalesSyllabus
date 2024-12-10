@@ -15,11 +15,11 @@ const HeroSection = () => {
         }}
       ></div>
 
-      <div className="relative z-10 mx-auto px-6 lg:px-12 flex flex-col md:flex-row items-center justify-between h-full">
+      <div className="relative z-10 mx-auto px-2 lg:px-12 flex flex-col md:flex-row items-center justify-between h-full">
         
         {/* Left Section - Text and Call to Action */}
-        <div className="md:w-1/2 text-left md:pr-10 animate__animated animate__fadeInLeft">
-          <h1 className="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-6">
+        <div className="md:w-1/2 text-left md:pr-1 animate__animated animate__fadeInLeft">
+          <h1 className="text-3xl md:text-3xl font-bold text-white leading-tight mb-6">
             Empower Your Business with <br /> Sales Syllabus
           </h1>
           <p className="text-lg md:text-xl text-white mb-8">

@@ -7,7 +7,7 @@ const { Title, Paragraph } = Typography;
 
 const AboutExperience = () => {
   return (
-    <div className="experience-section bg-gray-100 md:px-8 px-2 h-auto">
+    <div className="experience-section bg-gray-100 md:px-8 px-2 md:pt-20 pt-0 h-auto">
       <Title level={2} className="section-title text-center text-4xl !py-10 font-bold mb-10 text-[#4C6DC7]">Our Experience</Title>
       <Row gutter={[32, 32]} justify="center">
         {/* Experience Section */}

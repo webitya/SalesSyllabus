@@ -68,7 +68,7 @@ const HeroSection = () => {
       <div className="mx-auto grid md:grid-cols-2 gap-8 h-full items-center">
         {/* Left Section: Text and Button */}
         <div className="flex flex-col justify-center items-center md:items-start">
-          <h1 className="md:text-4xl text-4xl font-extrabold text-white mb-6 animate__animated animate__fadeIn">
+          <h1 className="md:text-4xl text-4xl font-bold text-white mb-6 animate__animated animate__fadeIn">
           Streamline, Track, and Drive Sales Excellence
 
           </h1>

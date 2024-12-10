@@ -26,7 +26,7 @@ const CustomDrawer = ({ toggleDrawer, isDrawerOpen }) => {
       submenu: [
         { label: "Market Analysis", href: "/market-analysis", image: "/lg4.png" },
         { label: "Content Marketing ", href: "/content-marketing", image: "/lg4.png" },
-        { label: "Strategy Panning ", href: "/Strategic-planning", image: "/lg4.png" },
+        { label: "Strategic Panning ", href: "/Strategic-planning", image: "/lg4.png" },
         // { label: "Online Reputation Management (ORM)", href: "/online-reputation-management", image: "/lg4.png" },
         // { label: "Search Engine Optimization (SEO)", href: "/search-engine-optimization", image: "/lg4.png" },
         // { label: "Branding & Community Building", href: "/branding-community-building", image: "/lg4.png" },
@@ -57,7 +57,7 @@ const CustomDrawer = ({ toggleDrawer, isDrawerOpen }) => {
     >
       <ul className="drawer-menu-list text-lg font-semibold text-gray-800 space-y-5">
         {navigationLinks.map((item) => (
-          <li key={item.label} className="drawer-menu-item hover:text-green-600 transition-all ease-in-out bg-white rounded-md">
+          <li key={item.label} className="drawer-menu-item hover:text-blue-400 transition-all ease-in-out bg-white rounded-md">
             {item.submenu ? (
               <>
                 <button
@@ -73,7 +73,7 @@ const CustomDrawer = ({ toggleDrawer, isDrawerOpen }) => {
                       <li key={submenuItem.label} className="submenu-item bg-gray-100 hover:bg-gray-200 transition-colors rounded-lg px-2 py-1">
                         <Link
                           to={submenuItem.href}
-                          className="w-full flex items-center hover:text-green-500 transition-colors"
+                          className="w-full flex items-center hover:text-blue-400 transition-colors"
                           onClick={toggleDrawer} // Close drawer on link click
                         >
                           {submenuItem.image && <img src={submenuItem.image} alt={submenuItem.label} className="w-6 h-6 mr-2" />}
@@ -95,8 +95,8 @@ const CustomDrawer = ({ toggleDrawer, isDrawerOpen }) => {
         <li className="drawer-menu-item mt-6">
           <Link to="https://calendly.com/salessyllabus" target='_blank'>
             <Button
-              type="primary"
-              className="w-full py-2 rounded-md text-white bg-green-600 hover:bg-green-700 focus:bg-green-800 transition-all"
+            
+              className="w-full py-2 rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:bg-blue-800 transition-all"
             >
               Book Appointment
             </Button>

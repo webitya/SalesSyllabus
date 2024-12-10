@@ -48,7 +48,7 @@ const timelineData = [
 
 const TimelineComponent = () => {
   return (
-    <div className="timeline-container">
+    <div className="timeline-container md:px-6 px-1 mx-auto md:py-20 py-1">
       <h1 className="timeline-title">Our Journey</h1>
       <div className="timeline-steps">
         {timelineData.map((item, index) => (
