@@ -28,9 +28,9 @@ const deliverables = [
     id: 3,
     title: "Problem-Resolution Framework",
     icon: <SolutionOutlined className="text-2xl text-orange-500" />,
-    description: "A process to quickly address sales challenges.",
+    description: "A process to quickly address sales and marketing challenges.",
     subFeatures: [
-      "Identify, categorize, and address sales challenges quickly.",
+      "Identify, categorize, and address sales and marketing  challenges quickly.",
       "Structured feedback framework for continuous improvement.",
     ],
   },
@@ -56,7 +56,7 @@ const deliverables = [
   },
   {
     id: 6,
-    title: "Sales Alerts and Notifications",
+    title: "Alerts and Notifications ",
     icon: <BellOutlined className="text-2xl text-yellow-500" />,
     description: "Real-time alerts and notifications for team activities.",
     subFeatures: [
@@ -73,7 +73,7 @@ const KeyDeliverables = () => {
       <div className="text-center mb-8">
         <h1 className="text-2xl font-semibold text-gray-800">Key Deliverables</h1>
         <p className="text-sm text-gray-600 mt-2">
-          When you partner with Sales Syllabus for Sales Performance Management, you gain:
+        When you partner with Sales Syllabus for Sales and Reporting framework , you gain:-
         </p>
       </div>
 

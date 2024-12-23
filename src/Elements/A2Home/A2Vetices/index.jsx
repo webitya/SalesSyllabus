@@ -155,9 +155,9 @@ const sections = [
   {
     title: "Market Analysis",
     subTitle:
-      "We start with a deep dive into your market and competitors, using data to",
+      "Identify and engage high-value customer segments.",
     items: [
-      "Identify key metrics and trends",
+      "Identify key metrics, analyze trends, and derive actionable insights",
       "Define target audiences and high-potential market segments",
       "Set achievable short- and realistic long-term sales goals",
       "Thoroughly analyze competitor strengths and weaknesses",
@@ -167,8 +167,8 @@ const sections = [
     gradient: "from-blue-400 to-blue-600",
   },
   {
-    title: "Strategic Planning",
-    subTitle: "We design a comprehensive strategy that includes",
+    title: "Marketing communication",
+    subTitle: "Craft an effective strategy to communicate with prospective buyers",
     items: [
       "High-impact marketing collateral aligned with your brand",
       "Tailored marketing and communication strategies",
@@ -180,11 +180,11 @@ const sections = [
     callToAction: "ok done",
   },
   {
-    title: "Sales Framework",
-    subTitle: "We set up systems to ensure transparency and accountability",
+    title: "Reporting Framework",
+    subTitle: "Design workflow and reporting framework to measure performance, and derive actionable insights",
     items: [
       "Define KPIs and KRAs for team and individual performance tracking",
-      "Real-time dashboards to monitor progress and outcomes",
+      "Real-time dashboards to monitor progress and get actionable insights ",
       "Regular feedback loops to address problems and provide solutions",
       "Implement training programs for sales team skill enhancement",
     ],
@@ -202,8 +202,7 @@ const LeadsSectionA2 = () => {
     >
       {/* Section Heading */}
       <h2 className="text-4xl font-bold text-center text-gray-800 mb-10 tracking-tight">
-        Key <span style={{ color: "#FA9439" }}>Pillars</span> of Business
-        Transformation
+      The  <span style={{ color: "#FA9439" }}>Framework</span>  for Transformation
       </h2>
 
       {/* Cards Container */}
@@ -220,7 +219,7 @@ const LeadsSectionA2 = () => {
             {/* Card Content */}
             <div className="flex flex-col h-full p-2">
               {/* Card Title */}
-              <h3 className="text-2xl font-semibold text-gray-800 mb-2">
+              <h3 className="text-xl font-semibold text-gray-800 mb-2">
                 {section.title}
               </h3>
               <h4 className="text-sm text-gray-400 mb-2">{section.subTitle}</h4>
@@ -241,7 +240,7 @@ const LeadsSectionA2 = () => {
                         
                         <Link to="/content-marketing" className="flex items-center gap-1">
                         <LinkOutlined className="text-blue-500"/>
-                        <h2 className="text-blue-400">Want to build trust and establish thought leadership with content marketing </h2>
+                        <h2 className="text-blue-400 font-semibold">Build trust and establish experience with content marketing </h2>
                         </Link>
                         </div>}
                     </>
@@ -265,6 +264,15 @@ const LeadsSectionA2 = () => {
           </Card>
         ))}
       </div>
+      {/* ====================== */}
+      <div className="w-full py-8 px-4 lg:px-24 bg-white shadow-lg rounded-lg">
+      <p className="flex items-center text-center text-sm text-gray-800 hover:text-gray-900 transition duration-200"
+                      >
+                        The Sales Syllabus Pro Framework is your roadmap to operational clarity, enabling your business to identify, monitor, and address gaps that hinder growth. Under this framework, we execute three critical activities. The framework helps organizations enhance the productivity of their sales and marketing teams by fostering a measurable, aggressive, and data-oriented culture.
+               </p>
+ 
+</div>
+      {/* ====================== */}
     </div>
   );
 };

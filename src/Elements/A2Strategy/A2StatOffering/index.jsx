@@ -74,11 +74,15 @@ const ServiceCard = ({ icon, title, points,description }) => (
 
 const WhatWeOffer = () => {
   return (
-    <Layout className="bg-gradient-to-r from-blue-50 via-gray-50 to-blue-50  py-12" id="info1">
+    <Layout className="bg-gradient-to-r from-blue-50 via-gray-50 to-blue-50 md:pt-20 py-10 md:pb-12" id="info1">
       <Content className=" mx-auto px-4">
-        <h1 className="text-3xl text-center text-gray-800 mb-10">
-          What We Offer
+        <h1 className="text-3xl text-center text-gray-800 mb-4">
+          What We Do
         </h1>
+        <p className="trusted-description text-center text-lg text-gray-600 mb-3">
+        We align marketing communication with the pain points and problem statements of the ideal customer persona, helping organizations deliver consistent and effective communication across various marketing channels.
+        Our business communication strategy is not just about creating a plan – it’s about crafting a tailored strategy that aligns with your business vision and delivers measurable results
+      </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service) => (
             <ServiceCard

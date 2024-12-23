@@ -1,61 +1,105 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FileSearchOutlined, ScheduleOutlined, BuildOutlined, RocketOutlined } from "@ant-design/icons"; // Import Ant Design icons
+import {
+  FileTextOutlined,
+  LineChartOutlined,
+  CommentOutlined,
+  TeamOutlined,
+  ClockCircleOutlined,
+  AimOutlined,
+  BarChartOutlined,
+  ExclamationCircleOutlined,
+  DollarCircleOutlined,
+  FundOutlined,
+} from "@ant-design/icons";
 
-const KeyDeliverableEl = () => {
-  // Array of deliverables
-  const deliverables = [
+const FrameworkAuthenticity = () => {
+  const features = [
     {
-      icon: <FileSearchOutlined />, // Add the corresponding icon
-      title: "ICP Research and Documentation",
-      description:
-        "A detailed document defining the target audience and identifying high-potential market segments.",
+      icon: <FileTextOutlined className="text-blue-600 text-3xl mr-4" />,
+      description: "Record client-facing efforts quantitatively and qualitatively.",
     },
     {
-      icon: <ScheduleOutlined />, // Add the corresponding icon
-      title: "Strategic Planning and Resource Allocation",
-      description:
-        "A comprehensive business communication plan outlining strategies to reach the target and high-potential market segments effectively.",
+      icon: <LineChartOutlined className="text-blue-600 text-3xl mr-4" />,
+      description: "Focus efforts on high-paying segments.",
     },
     {
-      icon: <BuildOutlined />, // Add the corresponding icon
-      title: "Sales Framework Development",
+      icon: <CommentOutlined className="text-blue-600 text-3xl mr-4" />,
       description:
-        "A detailed operational framework for the team to acquire high-potential market segments. This includes reports, problem management strategies, KPIs, KRAs, activities, stakeholder responsibilities, manpower planning, and ROI analysis.",
+        "Align business communication with the pain points of prospective customers, building trust and credibility.",
     },
     {
-      icon: <RocketOutlined />, // Add the corresponding icon
-      title: "Support and Execution",
+      icon: <TeamOutlined className="text-blue-600 text-3xl mr-4" />,
+      description: "Facilitate self-reflection and motivation among client-facing teams.",
+    },
+    {
+      icon: <ClockCircleOutlined className="text-blue-600 text-3xl mr-4" />,
+      description: "Reduce unproductive time by 40-50% through effective guidance.",
+    },
+    {
+      icon: <AimOutlined className="text-blue-600 text-3xl mr-4" />,
       description:
-        "End-to-end support for execution and iterative improvements until proof of concept (POC) is achieved and self-dependency is established.",
+        "Link team efforts to annual goals and milestones, enabling immediate interventions for identified gaps.",
+    },
+    {
+      icon: <BarChartOutlined className="text-blue-600 text-3xl mr-4" />,
+      description:
+        "Provide executive-level insights for problem-solving and performance tracking.",
+    },
+    {
+      icon: <ExclamationCircleOutlined className="text-blue-600 text-3xl mr-4" />,
+      description: "Present precise issues to management for quick resolution.",
+    },
+    {
+      icon: <DollarCircleOutlined className="text-blue-600 text-3xl mr-4" />,
+      description:
+        "Conduct ROI and financial analyses to refine marketing channels, vendors, and strategies.",
+    },
+    {
+      icon: <FundOutlined className="text-blue-600 text-3xl mr-4" />,
+      description:
+        "Enable management to make real-time, data-driven decisions, reducing problem-solving time by 90%.",
+    },
+    {
+      icon: <LineChartOutlined className="text-blue-600 text-3xl mr-4" />,
+      description:
+        "Monitor progress in alignment with ideal goals, milestones, and performance benchmarks.",
     },
   ];
 
   return (
-    <div className="w-full text-center px-5 py-2">
-      <div className="flex justify-center">
-        <img src="/logob.png" style={{ width: "80px" }} alt="Logo" />
+    <div className="w-full px-4 py-8 bg-gray-50 min-h-screen flex flex-col items-center">
+      {/* Header Section */}
+      <div className="text-center mb-8">
+        <div className="flex justify-center mb-6">
+          <img src="/logob.png" style={{ width: "80px" }} alt="Logo" />
+        </div>
+        <h2 className="text-3xl font-bold text-orange-500 mb-4">Key Deliverables</h2>
+        <ul className="text-left text-lg text-gray-800 mb-4">
+          <li>1. Ideal Customer Profile</li>
+          <li>2. Marketing Communication Strategy</li>
+          <li>3. Reporting System and Framework</li>
+          <li>4. Support and Execution</li>
+        </ul>
+        <p className="text-gray-700">
+          Proven across 100+ companies, the framework empowers organizations to:
+        </p>
       </div>
-      {/* Title */}
-      <h2 className="text-2xl font-bold mb-3" style={{ color: "#F49465" }}>
-        Key Deliverables
-      </h2>
 
-      {/* Section Content */}
-      <div className="text-left mx-auto text-gray-700">
-        {deliverables.map((item, index) => (
-          <div key={index} className="mb-3 flex items-start">
-            {/* <div className="text-blue-600 text-xl mr-2">{item.icon}</div> */}
-            <div>
-              <h3 className="text-lg text-blue-600 mb-1">{item.title}</h3>
-              <p>{item.description}</p>
-            </div>
+      {/* Features Section */}
+      <div className="max-w-4xl w-full text-left grid grid-cols-1 md:grid-cols-2 gap-6">
+        {features.map((feature, index) => (
+          <div key={index} className="flex items-start">
+            {feature.icon}
+            <p className="text-gray-700">{feature.description}</p>
           </div>
         ))}
       </div>
-      <div className="mt-5">
+
+      {/* Call-to-Action Button */}
+      <div className="mt-10">
         <Link to="https://calendly.com/salessyllabus" target="_blank">
-          <button className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow-md hover:bg-blue-700 transition">
+          <button className="bg-blue-600 text-white px-8 py-3 rounded-md shadow-md hover:bg-blue-700 transition">
             Book Consultation Now
           </button>
         </Link>
@@ -64,4 +108,4 @@ const KeyDeliverableEl = () => {
   );
 };
 
-export default KeyDeliverableEl;
+export default FrameworkAuthenticity;

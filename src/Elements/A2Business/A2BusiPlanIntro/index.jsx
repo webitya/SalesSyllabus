@@ -69,19 +69,22 @@ const A2BusinessPlanPage = () => {
  Build a competitive edge.
           </p> */}
            <div>
-            <h2 className="text-3xl text-center mb-5">Understanding Market Dynamics to Drive Business Success</h2>
-            <p className="text-lg mb-3">At Sales Syllabus, we believe that effective business planning starts with a thorough 
-understanding of your market. Market analysis is more than just data—it's the foundation 
-for crafting strategies that align with industry trends, customer behaviors, and 
-competitive landscapes.</p>
-    <h2 className="text-xl text-gray-900 mb-4">
-      Through comprehensive research and advanced analytical tools, we provide actionable 
-      insights that empower businesses to :
-    </h2>
+            <h2 className="text-3xl text-center mb-5">The Importance of Market Analysis for Business Transformation</h2>
+           
+            {/* == */}
+            <p className="text-base md:text-lg text-gray-700 mb-2">
+            At Sales Syllabus, we believe that effective business transformation starts with a thorough understanding of your market. Market analysis is more than just data—it's the foundation for crafting strategies that align with industry trends, customer behaviors, and competitive landscapes.
+          </p>
+            {/* === */}
+    
+    <p className="text-base md:text-lg text-gray-700 mb-2">
+            AThrough comprehensive research and advanced analytical tools, we provide actionable 
+            insights that empower businesses to :
+          </p>
     <p className="text-gray-700 text-lg leading-relaxed">
       <span className="flex items-center mb-2">
         <SearchOutlined className="mr-2" />
-        Identify growth opportunities.
+        Identify growth opportunities and High paying clients 
       </span>
       <span className="flex items-center mb-2">
         <BarChartOutlined className="mr-2" />
@@ -99,9 +102,9 @@ competitive landscapes.</p>
       {/* Purpose of Market Analysis Section */}
       <section>
         <h2 className="md:text-3xl text-4xl py-5  text-gray-800 mb-2 text-center">
-        Why Market Analysis is Crucial for Business Planning
+        Structure of Market Analysis
         </h2>
-        <p className="text-center text-sm py-3">Market analysis is not a standalone activity, it’s an integral part of a successful business 
+        <p className="text-center text-xl py-3" style={{textDecoration:"none"}}>Market analysis is not a standalone activity, it’s an integral part of a successful business 
         strategy. Here’s how it fuels effective planning</p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
           {marketAnalysisData.map((item, index) => (

@@ -28,7 +28,7 @@ const features = [
     title: "Real-Time Dashboards for Monitoring",
     icon: <AreaChartOutlined className="text-xl text-blue-400" />,
     description:
-      "Transparency is at the core of effective sales performance. Our Framework includes real-time tracking dashboards that allow seamless monitoring of sales data.",
+      "Transparency is at the core of effective sales and marketing performance. Our Framework includes real-time tracking dashboards that allow seamless monitoring of sales and marketing data.",
     subFeatures: [
       "Custom Dashboards: Real-time tracking of progress against targets.",
       "Data Visualization: Easy-to-understand charts and graphs highlighting sales performance trends.",
@@ -40,7 +40,7 @@ const features = [
     title: "Regular Feedback Loops for Problem Solving",
     icon: <TeamOutlined className="text-xl text-blue-400" />,
     description:
-      "Continuous feedback is vital for a high-performing sales team. We establish frameworks that ensure proactive problem solving.",
+      "Continuous feedback is vital for a high-performing sales and marketing team. We establish frameworks that ensure proactive problem solving.",
     subFeatures: [
       "Scheduled Feedback Sessions: Regular check-ins to review progress and address concerns.",
       "Problem-Solving Framework: Early identification of roadblocks and collaborative strategies to resolve them.",
@@ -55,10 +55,10 @@ const A2SalesProcessConsulting = () => {
       {/* Page Header */}
       <div className="text-center mb-6">
         <h1 className="text-3xl text-gray-800 mb-2">
-          About Framework
+          About Reporting Framework
         </h1>
         <p className="text-sm text-gray-600 mx-auto">
-          Our Framework focuses on creating a seamless process that empowers both sales managers and teams to drive performance through structured tracking and feedback. Here’s what we do to set up a tailored sales framework for your organization
+        Our Framework focuses on creating a seamless process that empowers both  managers and teams to drive performance through structured tracking and feedback. Here’s what we do to set up a tailored sales and reporting  framework for your organization
         </p>
       </div>
 

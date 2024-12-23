@@ -1,6 +1,7 @@
 import React, { lazy, Suspense } from 'react';
 import { Row, Col, Spin } from 'antd';
 import 'tailwindcss/tailwind.css';
+import "./A2AbVisi.css"
 
 const ApexChart = lazy(() => import('react-apexcharts'));
 
@@ -24,7 +25,7 @@ const chartOptions = {
           show: true, 
           fontSize: '20px', 
           offsetY: 10, 
-          color: '#38bdf8' 
+          color: '#38bdf8', 
         },
       },
     },
@@ -56,18 +57,22 @@ const chartSeries = [90];
 
 const AboutOurVision = () => {
   return (
-    <section className="w-full py-20 bg-gradient-to-r from-blue-50 to-indigo-50">
-      <Row gutter={[32, 32]} className="flex items-center  mx-auto px-4 lg:px-12">
-        {/* Left Column: Vision Text */}
-        <Col xs={24} lg={12} className="space-y-6">
-          <h2 className="text-4xl font-extrabold text-gray-800 mb-6">Our Vision</h2>
-          <p className="text-lg text-gray-700">
-            We envision a future where every business can reach its full potential through the power of strategic, data-driven decisions.
-            By staying ahead of industry trends and continuously refining our approach, we strive to make Sales Syllabus a leader in business transformation consulting.
+    <section className="w-full py-20 bg-gradient-to-r from-blue-50 to-indigo-50 font-premium">
+      <Row gutter={[32, 32]} className="flex items-center mx-auto px-4 lg:px-12">
+        <Col xs={24} lg={12} className="space-y-2">
+          <h2 className="text-3xl text-gray-800 mb-2">Our Vision</h2>
+          <p className="text-base md:text-lg text-gray-700 mb-6">
+          To revolutionize how businesses operate by implementing structured, data-driven systems that maximize efficiency, foster collaboration, and deliver exceptional results.
           </p>
-          <p className="text-lg text-gray-700">
-            Let us help you harness the power of strategic growth to transform your business.
+          <h2 className="text-3xl text-gray-800 mt-2">Our Approach</h2>
+          <p className="text-base md:text-lg text-gray-700 mb-6">
+          Transformation isn’t just a buzzword—it’s our commitment. We design systems that address the unique challenges of every organization, enabling seamless alignment between sales and marketing. Our approach ensures:
           </p>
+          <ul className="list-disc pl-6 text-base md:text-lg   text-gray-700 space-y-2" style={{fontSize:"18px"}}>
+            <li>Streamlined processes for peak performance.</li>
+            <li>Data-backed strategies for informed decision-making.</li>
+            <li>A unified team culture driven by measurable outcomes.</li>
+          </ul>
         </Col>
 
         {/* Right Column: Radial Chart */}

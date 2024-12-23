@@ -83,7 +83,7 @@ const PerformanceMixedChart = () => {
 
   const series = [
     {
-      name: 'High Sales Conversion Ratio',
+      name: 'Reduced Problem Solving time ',
       type: 'bar',
       data: [10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65],
     },
@@ -93,7 +93,7 @@ const PerformanceMixedChart = () => {
       data: [300, 280, 260, 240, 220, 200, 180, 160, 140, 120, 100, 80],
     },
     {
-      name: 'Low Hiring Cost',
+      name: 'Hiring quality ',
       type: 'bar',
       data: [500, 450, 400, 350, 300, 250, 200, 150, 100, 50, 0, 50],
     },
@@ -126,7 +126,7 @@ const PerformanceMixedChart = () => {
     if (chart) {
       // Hide all other series except the first one
       chart.toggleSeries('Better People Management');
-      chart.toggleSeries('Low Hiring Cost');
+      chart.toggleSeries('Hiring quality ');
       chart.toggleSeries('Low Mentoring Cost & Time');
       chart.toggleSeries('Timely Support to Sales Team');
       chart.toggleSeries('Quality Lead Generation');

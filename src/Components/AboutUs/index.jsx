@@ -43,6 +43,7 @@ import AboutExperience from "../../Elements/AboutExperienceEl";
 import TimelineComponent from "../../Elements/HomeJourney";
 import LayoutEl from "../../Shared/LayoutEl";
 import FooterEl from "../../Shared/FooterEl";
+import A2OurStrengths from "../../Elements/A2About/A2OurStrength";
 
 const AboutUs = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
@@ -64,7 +65,6 @@ const AboutUs = () => {
   const navLinks = [
     // { id: "hero", label: "Hero" },
     { id: "who-we-are", label: "Who We Are" },
-    { id: "what-we-do", label: "What We Do" },
     { id: "our-vision", label: "Our Vision" },
     { id: "why-choose-us", label: "Why Choose Us" },
     { id: "experience", label: "Experience" },
@@ -136,11 +136,12 @@ const AboutUs = () => {
         <section id="who-we-are">
           <AboutWhoWeAre />
         </section>
-        <section id="what-we-do">
+        {/* <section id="what-we-do">
           <AboutWhatWeDo />
-        </section>
+        </section> */}
         <section id="our-vision">
           <AboutOurVision />
+          <A2OurStrengths/>
         </section>
         <section id="why-choose-us">
           <AboutWhyChooseUs />

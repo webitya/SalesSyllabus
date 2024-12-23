@@ -49,8 +49,11 @@ const A2Company = () => {
       <h1 className="trusted-title text-3xl lg:text-4xl font-bold text-center text-gray-800 mb-4">
         100+ Top Companies Trust Us
       </h1>
-      <p className="trusted-description text-center text-lg text-gray-600 mb-8">
-        Our platform is trusted by leading companies around the globe for its innovation, reliability, and results.
+  <p className="trusted-description text-center text-lg text-gray-600 mb-1">
+  Sales Syllabus is a premium business consulting company specializing in achieving business transformation by optimizing sales and marketing functions. Through the implementation of our in-house Sales Syllabus Pro Framework, we enable entire sales and marketing teams to deliver measurable and impactful outcomes.
+      </p>
+  <p className="trusted-description text-center text-lg text-gray-600 mb-3">
+        <span className="font-bold text-zinc-600">Our framework</span> is trusted by leading companies around the globe for its innovation, reliability, and results.
       </p>
       <div className="logo-container max-w-6xl mx-auto">
         <Slider {...settings}>

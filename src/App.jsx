@@ -51,7 +51,7 @@ const App=()=>{
           <Route path="/branding-community-building" element={<Branding />} />
           <Route path="/website-design" element={<WebsiteDesign />} />
           <Route path="/Sales-framework" element={<SalesConsulting />} />
-          <Route path="/Strategic-planning" element={<Strategy />} />
+          <Route path="/marketing-communication" element={<Strategy />} />  {/* Maketing Communication */}
           {/* =============================================== */}
           <Route path="/blogs/sales-talent-management" element={<Blog1 />} />
           <Route path="/blogs/sales-hiring-challenges" element={<Blog2 />} />

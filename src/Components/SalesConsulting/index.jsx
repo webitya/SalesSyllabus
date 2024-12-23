@@ -35,6 +35,7 @@ import A2SalWhyChooseSalesSyllabus from "../../Elements/A2Sales/A2SalWhyChoose";
 import CallToActionSection from "../../Elements/A2Sales/SalesCTA";
 import LayoutEl from "../../Shared/LayoutEl";
 import FooterEl from "../../Shared/FooterEl";
+import A2ActionableInsights from "../../Elements/A2Sales/A2ActionableInsights";
 
 const SalesConsulting = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
@@ -55,8 +56,9 @@ const SalesConsulting = () => {
 
   const navLinks = [
    
-    { id: "process", label: "Sales Framework" },
+    { id: "process", label: "Reporting Framework" },
     { id: "key-deliverables", label: "Key Deliverables" },
+    { id: "actionable-insights", label: "Actionable Insights" },
     { id: "why-choose", label: "Why Choose Sales Syllabus" },
     { id: "testimonials", label: "Testimonials" },
     { id: "cta", label: "Contact Us" },
@@ -129,6 +131,9 @@ const SalesConsulting = () => {
         </section>
         <section id="key-deliverables">
           <A2SalKeyDeliverables />
+        </section>
+        <section id="actionable-insights">
+        <A2ActionableInsights/>
         </section>
         <section id="why-choose">
           <A2SalWhyChooseSalesSyllabus />

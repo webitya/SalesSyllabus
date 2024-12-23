@@ -10,14 +10,15 @@ const NavbarEl3 = () => {
     { label: "Home", href: "/" },
     { label: "About Us", href: "/about-us" },
     { label: "Market Analysis", href: "/market-analysis" },
-    { label: "Strategic planning", href: "/Strategic-planning" },
-    { label: "Content Marketing ", href: "/content-marketing" },
-    { label: "Sales Framework", href: "/Sales-framework" },
+    { label: "Marketing Communication", href: "/marketing-communication" },
+    // { label: "Content Marketing ", href: "/content-marketing" },
+    { label: "Reporting Framework", href: "/Sales-framework" },
   ];
 
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   const [isSticky, setIsSticky] = useState(false);
   const [isResourcesOpen, setIsResourcesOpen] = useState(false);
+  const [isResourcesOpen1, setIsResourcesOpen1] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => setIsSticky(window.scrollY > 150);
@@ -42,7 +43,7 @@ const NavbarEl3 = () => {
       >
         <div className="navbar-brand">
           <NavLink to="/">
-            <img src="/logobz.svg" alt="brand-logo" width="110px" />
+            <img src="/logobbyy.svg" alt="brand-logo" width="110px" />
           </NavLink>
         </div>
 
@@ -78,6 +79,20 @@ const NavbarEl3 = () => {
               </div>
             )}
           </div>
+          {/* ===========Addons======== */}
+          <div
+            className="dropdown mr-6"
+            onMouseEnter={() => setIsResourcesOpen1(true)}
+            onMouseLeave={() => setIsResourcesOpen1(false)}
+          >
+            <span className="navlink" style={{ fontWeight: "normal", textDecoration: "none" }}>Add-on <DownOutlined style={{fontSize:"13px"}}/></span>
+            {isResourcesOpen1 && (
+              <div className="dropdown-menu w-40">
+                <NavLink to="/content-marketing" className="dropdown-item text-sm">Content Marketing</NavLink>
+              </div>
+            )}
+          </div>
+          {/* ========================= */}
 
           <Link to="https://calendly.com/salessyllabus" target="_blank">
       <Button
@@ -92,14 +107,6 @@ const NavbarEl3 = () => {
           alignItems: "center",
           gap: "8px",
         }}
-        // onMouseEnter={(e) => {
-        //   e.currentTarget.style.transform = "translateY(0px)";
-        //   e.currentTarget.style.boxShadow = "0 8px 20px rgba(0, 71, 255, 0.4)";
-        // }}
-        // onMouseLeave={(e) => {
-        //   e.currentTarget.style.transform = "translateY(0)";
-        //   e.currentTarget.style.boxShadow = "0 5px 15px rgba(0, 71, 255, 0.3)";
-        // }}
       >
         Book Appointment <FormOutlined />
       </Button>

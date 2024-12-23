@@ -55,19 +55,19 @@ const OptimizationGrowthComponent = () => {
   const points = [
     {
       icon: <MonitorOutlined className="text-2xl text-green-600" />,
-      text: 'Monitor performance metrics.',
+      text: 'Design reporting systems to deliver actionable insights and perform comprehensive ROI analysis for informed decision-making.',
     },
     {
       icon: <SyncOutlined className="text-2xl text-yellow-600" />,
-      text: 'Use machine learning models for optimizations.',
+      text: 'Develop a robust problem-solving framework to systematically identify challenges, analyze root causes, and implement effective solutions.',
     },
     {
       icon: <LineChartOutlined className="text-2xl text-blue-600" />,
-      text: 'Adapt strategies based on new data.',
+      text: 'Create a detailed implementation plan that outlines key objectives, timelines, milestones, and resource allocation to ensure seamless execution and measurable outcomes',
     },
     {
       icon: <RadarChartOutlined className="text-2xl text-purple-600" />,
-      text: 'Integrate performance tracking.',
+      text: 'Provide dedicated support for seamless implementation, including guidance, troubleshooting, and continuous optimization to ensure success.',
     },
   ];
 

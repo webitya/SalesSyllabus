@@ -16,9 +16,12 @@ const BusinessPlanPage = () => (
   <div className="w-full md:pt-20 pt-5 pb-5 bg-white">
     <div className="max-w-7xl mx-auto px-4">
       <section>
-        <h2 className="text-3xl  text-center mb-2 text-gray-800">Our Market Analysis Approach</h2>
-        <p className="text-center text-sm py-3">Sales Syllabus takes a structured and data-driven approach to market analysis, ensuring 
-        actionable insights tailored to your business needs</p>
+        <h2 className="text-3xl  text-center mb-2 text-gray-800">Activities We Perform to Conduct Market Analysis</h2>
+      
+        <p className="text-base md:text-lg text-gray-700 mb-2" style={{textDecoration:"none"}}>
+        Sales Syllabus takes a structured and data-driven approach to market analysis, ensuring 
+        actionable insights tailored to your business needs
+          </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
           {marketAnalysisApproach.map((approach, index) => (
             <Card key={index} className="shadow-lg hover:shadow-xl transition-shadow duration-300">

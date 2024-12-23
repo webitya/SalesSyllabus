@@ -106,9 +106,12 @@ const MarketAnalysisHero = () => {
     <div className="w-full flex md:flex-row flex-col items-center justify-center md:p-10 p-2 bg-gray-700">
       {/* Left Section */}
       <div className="w-full lg:w-1/2 md:pr-10 mb-8 lg:mb-0 animate__animated animate__slideInLeft animate__delay-0.5s">
-        <Title level={1} className="font-bold mb-6 !text-white animate__animated animate__slideInLeft animate__delay-0.5s">
-        <span className='text-4xl md:text-4xl '>Market Analysis</span> <p className='text-2xl md:text-2xl italic'>Your Path to Informed Business Decisions</p>
+        <Title level={1} className="mb-6 !text-white animate__animated animate__slideInLeft animate__delay-0.5s">
+        <span className='text-4xl md:text-4xl font-bold  '>Market Analysis</span> <p className='text-xl  py-3 italic'> </p>
         </Title>
+        <p className="text-lg md:text-xl text-white mb-8">
+          Sales Syllabus Pro is a proprietary framework developed through in-house research and testing with over 100 companies.
+          </p>
         <Paragraph className="text-lg md:text-xl mb-6 text-gray-200 animate__animated animate__slideInLeft animate__delay-0.5s">
     
         </Paragraph>

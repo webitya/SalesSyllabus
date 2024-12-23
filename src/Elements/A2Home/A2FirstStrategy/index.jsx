@@ -37,7 +37,7 @@ const BuildingStrategyComponent = () => {
   const chartSeries = [{ name: 'Strategy Effectiveness', data: [30, 60, 45, 80] }];
 
   const points = [
-    { icon: <FileSearchOutlined className="text-xl text-blue-500" />, text: "Develop a data-driven business strategy tailored to your goals." },
+    { icon: <FileSearchOutlined className="text-xl text-blue-500" />, text: "Develop a comprehensive marketing and communication strategy paired with impactful content creation." },
     { icon: <SettingOutlined className="text-xl text-teal-600" />, text: "Build an optimized sales and marketing process framework." },
     { icon: <RiseOutlined className="text-xl text-green-600" />, text: "Integrate performance tracking and predictive models." },
   ];

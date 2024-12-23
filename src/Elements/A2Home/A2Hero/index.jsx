@@ -142,15 +142,15 @@ const HeroSectionA2 = () => {
           className="text-3xl md:text-3xl lg:text-3xl font-bold leading-tight tracking-wide opacity-95 text-white transition-transform duration-300"
           style={{ animation: "fadeIn 1.2s ease-in-out" }}
         >
-          Driving Growth, Building Brands, Empowering Sales
+          Drive Business Transformation with the Sales Syllabus Pro Frameworks
         </h1>
 
         {/* Subheading */}
         <p
-          className="text-base md:text-lg lg:text-2xl font-medium opacity-95 text-white"
+          className="text-base md:text-lg lg:text-xl font-medium opacity-95 text-white"
           style={{ animation: "fadeIn 1.5s ease-in-out" }}
         >
-          We deliver measurable outcomes through  market analysis, sales optimization ,and  strategic consulting
+          <span className='font-semibold'>Sales Syllabus<sup>®</sup> Pro</span> is a meticulously framework that aligns and optimizes your sales and marketing functions with precision
         </p>
 
         {/* Call to Action Button */}
@@ -187,7 +187,7 @@ const HeroSectionA2 = () => {
        <div className="bg-white p-6 shadow-lg rounded-xl flex flex-col justify-between h-96 w-full mx-auto">
           <h2 className="text-2xl font-semibold text-purple-700 mb-2">Revenue Growth Analysis</h2>
           <p className="text-sm text-gray-600 mb-4">
-            Track your revenue growth and identify trends to guide strategic decisions.
+          Track revenue growth, identify trends, and address gaps that hinder progress 
           </p>
           <div className="flex-grow">
             <Chart options={chartOptions} series={chartOptions.series} type="area" height="100%" />

@@ -12,6 +12,7 @@ import A2BusinessPackages from "../../Elements/A2Home/A2Packages";
 
 import A2Testimonials from "../../Elements/A2Home/A2Testimonial";
 import LeadsSectionA2 from "../../Elements/A2Home/A2Vetices";
+import SalesSyllabusComponent from "../../Elements/A2Home/SalesSyllabusComponent";
 
 import HomeFAQSection from "../../Elements/HomeFaqs";
 
@@ -24,6 +25,15 @@ const Homepage = () => {
     <>
       <LayoutEl>
         <HeroSectionA2 />
+        {/* <div className="w-full py-8 px-4 lg:px-24 bg-white shadow-lg rounded-lg">
+  <h2 className="text-3xl font-semibold text-center text-gray-900 mb-4 tracking-wide">
+    What is Sales Syllabus?
+  </h2>
+  <p className="text-center text-gray-700 mx-auto">
+    Sales Syllabus is a premium business consulting company specializing in achieving business transformation by optimizing sales and marketing functions. Through the implementation of our in-house Sales Syllabus Pro Framework, we enable entire sales and marketing teams to deliver measurable and impactful outcomes.
+  </p>
+</div> */}
+
         <A2Company />
         <LeadsSectionA2 />
         <InfographicSectionA2 />
@@ -35,7 +45,7 @@ const Homepage = () => {
        
         <CallToActionA2 />
         <PerformanceMixedChart />
-     
+        <SalesSyllabusComponent/>
        
         <A2Testimonials />
         <A2BusinessPackages />

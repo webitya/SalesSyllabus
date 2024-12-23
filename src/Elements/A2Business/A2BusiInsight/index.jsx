@@ -17,7 +17,7 @@ const A2InsightsToActionSection = () => {
       <div className=" mx-auto px-4">
         <Card className="shadow-lg border-none p-6 bg-white">
           <h2 className="text-3xl  text-gray-800 mb-6 text-center">
-            Turning Insights into Actionable Plans
+          Analysis -Turning Insights into Actionable Plans
           </h2>
           <p className="text-lg text-gray-700 leading-relaxed text-center mb-8">
             Our market analysis feeds directly into your business planning to:

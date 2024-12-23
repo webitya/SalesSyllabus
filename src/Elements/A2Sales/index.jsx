@@ -74,7 +74,7 @@ const HeroSection = () => {
           </h1>
       
           <p className="text-lg text-white mb-8">
-          Our proprietary sales framework, Sales Syllabus Pro, is a meticulously crafted four-tier system designed to streamline organizational processes and drive rapid problem-solving
+          Align360 is a meticulously designed, four-tier reporting system that streamlines sales and marketing processes while accelerating problem-solving. Tested and proven across 100+ companies, it transforms how businesses manage and optimize their sales and marketing efforts.
           </p>
           <Link to="https://calendly.com/salessyllabus">
             <Button

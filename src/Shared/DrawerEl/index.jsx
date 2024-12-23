@@ -25,13 +25,13 @@ const CustomDrawer = ({ toggleDrawer, isDrawerOpen }) => {
       label: "Services",
       submenu: [
         { label: "Market Analysis", href: "/market-analysis", image: "/lg4.png" },
-        { label: "Content Marketing ", href: "/content-marketing", image: "/lg4.png" },
-        { label: "Strategic Panning ", href: "/Strategic-planning", image: "/lg4.png" },
+        // { label: "Content Marketing ", href: "/content-marketing", image: "/lg4.png" },
+        { label: "Marketing Communication", href: "/marketing-communication", image: "/lg4.png" },
         // { label: "Online Reputation Management (ORM)", href: "/online-reputation-management", image: "/lg4.png" },
         // { label: "Search Engine Optimization (SEO)", href: "/search-engine-optimization", image: "/lg4.png" },
         // { label: "Branding & Community Building", href: "/branding-community-building", image: "/lg4.png" },
         // { label: "Website Design", href: "/website-design", image: "/lg4.png" },
-        { label: "Sales Framework", href: "/Sales-framework", image: "/lg4.png" },
+        { label: "Reporting Framework", href: "/Sales-framework", image: "/lg4.png" },
       ],
     },
     {
@@ -41,6 +41,12 @@ const CustomDrawer = ({ toggleDrawer, isDrawerOpen }) => {
         { label: "Case Studies", href: "/case-studies" },
         { label: "Blogs", href: "/blog" },
         { label: "Free Resources", href: "/free-resources" },
+      ],
+    },
+    {
+      label: "Addons",
+      submenu: [
+        { label: "Content Marketing", href: "/content-marketing" },
       ],
     },
   ];

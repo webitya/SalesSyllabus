@@ -73,11 +73,10 @@ const HeroSection = () => {
         {/* Left Section: Text and Offerings */}
         <div className="flex flex-col justify-center items-center md:items-start">
           <h1 className="md:text-4xl text-3xl font-bold text-white mb-6 animate__animated animate__fadeIn">
-            Why Strategic Planning Matters
+            Marketing Communication
           </h1>
           <p className="text-lg text-gray-200 mb-6 animate__animated animate__fadeIn">
-            Strategic planning is the blueprint that aligns your business objectives with actionable marketing initiatives.
-            Without it, efforts are scattered, and results are inconsistent. Our approach ensures a clear roadmap to success.
+          Marketing communication is a key enabler in navigating business transformation, as it helps manage internal and external perceptions, aligns stakeholders, and builds lasting relationships with customers.
           </p>
           
           <ScrollLink to="info1" smooth={true} duration={500} offset={-70}>

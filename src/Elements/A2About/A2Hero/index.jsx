@@ -20,10 +20,10 @@ const HeroSection = () => {
         {/* Left Section - Text and Call to Action */}
         <div className="md:w-1/2 text-left md:pr-1 animate__animated animate__fadeInLeft">
           <h1 className="text-3xl md:text-3xl font-bold text-white leading-tight mb-6">
-            Empower Your Business with <br /> Sales Syllabus
+          Empowering Businesses through Transformative Frameworks 
           </h1>
           <p className="text-lg md:text-xl text-white mb-8">
-            Discover data-driven Busines transformation  that drive impactful, sustainable growth.
+          Sales Syllabus Pro is a proprietary framework developed through in-house research and testing with over 100 companies.
           </p>
           <ScrollLink to="whatwedo" smooth={true} duration={500} offset={-70}>
           <Button
@@ -45,10 +45,10 @@ const HeroSection = () => {
           >
             <div className="flex items-center">
               <BarChartOutlined className="text-4xl text-white mr-4 animate__animated animate__bounce animate__infinite" />
-              <h3 className="text-2xl font-semibold">Market Analysis </h3>
+              <h3 className="text-2xl font-semibold">Computational approach  </h3>
             </div>
             <p className="mt-4 text-gray-200">
-              Use analytics to craft solutions that propel growth and maximize impact.
+            Instilling a data-driven and computational mindset within management behaviors
             </p>
           </Card>
           

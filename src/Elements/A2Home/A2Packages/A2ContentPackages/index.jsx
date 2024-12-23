@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const CompactContentMarketingPackage = () => {
   const packageDetails = [
     {
-      title: "Content Marketing Package",
+      title: "Content Marketing Package (Add-On)",
       content: [
         "Strategic content development in multiple formats: PPT, text, video, and data-driven infographics",
         "Content distribution – Organic and Inorganic: SEO, Social Media, Website, Community Building, Paid Ads, Email Marketing, Events",

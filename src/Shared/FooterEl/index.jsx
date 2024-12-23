@@ -13,7 +13,7 @@ const FooterEl = () => {
           {/* Column 1: About Us */}
           <FooterColumn title="About Us">
             <p>
-            We provide strategic consulting services to transform business performance. Our focus is on enhancing three core pillars of your organization: business planning, marketing execution, and sales execution. Explore our individual service pages to learn more about how we drive impactful transformation.<br></br>
+            Sales Syllabus is a premium business consulting company specializing in achieving business transformation by optimizing sales and marketing functions.<br></br>
             {/* <i className='text-white'>The aim is not only to generate leads but to ensure these leads are effectively converted into sales, improving the overall revenue and sales performance.</i> */}
             </p>
             <Link to="/about-us" target="_blank" className='py-3 my-2'>
@@ -23,13 +23,13 @@ const FooterEl = () => {
 
           {/* Column 2: Our Services */}
           <FooterColumn title="Our Services">
-            <FooterLink to="/business-planning">Business Planning</FooterLink>
-            <FooterLink to="/performance-marketing">Marketing Solution</FooterLink>
+            <FooterLink to="/market-analysis">Market Analysis</FooterLink>
+            <FooterLink to="/marketing-communication">Marketing Communication</FooterLink>
             {/* <FooterLink to="/online-reputation-management">Online Reputation Management</FooterLink> */}
             {/* <FooterLink to="/search-engine-optimization">Search Engine Optimization</FooterLink> */}
             {/* <FooterLink to="/branding-community-building">Branding & Community Building</FooterLink> */}
             {/* <FooterLink to="/website-design">Website Design</FooterLink> */}
-            <FooterLink to="/sales-consulting">Sales Consulting</FooterLink>
+            <FooterLink to="/Sales-framework">Reporting Framework</FooterLink>
           </FooterColumn>
 
           {/* Column 3: Get In Touch */}
@@ -73,7 +73,7 @@ const ContactInfo = () => (
   <>
     <p><strong>Address:</strong> D Block, Jayshree Green City, Argora, Ranchi</p>
     <p><strong>Phone:</strong> +91 6200207379</p>
-    <p><strong>Email: </strong><a href="mailto:salessyllabus@gmail.com" target="_blank" className='footer-link'>salessyllabus@gmail.com</a></p>
+    <p><strong>Email: </strong><a href="mailto:salessyllabus@gmail.com" target="_blank" className='footer-link'>sandeep@salessyllabus.com</a></p>
   </>
 );
 
