@@ -150,7 +150,7 @@ const HeroSectionA2 = () => {
           className="text-base md:text-lg lg:text-xl font-medium opacity-95 text-white"
           style={{ animation: "fadeIn 1.5s ease-in-out" }}
         >
-          <span className='font-semibold'>Sales Syllabus<sup>®</sup> Pro</span> is a meticulously framework that aligns and optimizes your sales and marketing functions with precision
+          <span className='font-semibold'>Sales Syllabus<sup>®</sup> Pro</span> is a meticulously designed framework that aligns and optimizes your sales and marketing functions with precision
         </p>
 
         {/* Call to Action Button */}

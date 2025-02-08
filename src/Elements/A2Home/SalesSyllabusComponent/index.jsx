@@ -6,10 +6,10 @@ const { Title, Text } = Typography;
 
 const SalesSyllabusComponent = () => {
   const outputItems = [
-    "Independently resolve challenges.",
-    "Continuously optimize performance.",
+    "Independently overcomes challenges and boosts sales and marketing team productivity by up to 50%.",
+    "Continuously enhances performance by targeting high-value customer segments.",
     "Implement workflows, KRAs, KPIs, reporting systems, and research to achieve business transformation.",
-    "Generate a precise list of actionable items to effectively resolve sales and marketing challenges.",
+    "Delivers a precise, actionable roadmap to address sales and marketing challenges, reducing problem-solving time by 90%.",
     "Create a targeted action plan to address sales and marketing problems with high accuracy",
   ];
 
